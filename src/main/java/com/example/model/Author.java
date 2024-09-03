@@ -24,6 +24,7 @@ public class Author {
     @GeneratedValue(strategy = GenerationType.UUID)
     private UUID id;
 
+    @Setter
     @NotBlank
     private String firstName;
 

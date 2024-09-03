@@ -24,6 +24,7 @@ public class LibraryBook {
     private UUID id;
 
     @NotBlank
+    @Setter
     private String title;
 
     @NotBlank
